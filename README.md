@@ -10,6 +10,7 @@
 - Procure pela classe Startup e inicie a aplicação através dela as migrations serão rodadas automaticamente graças à configuração do plugin configurado no passo anterior.
 - Para utilizar o sistema utilize um dos dois usuários já existentes abaixo ou crie um novo atraves do endpoint de signup.
 - Para realizar a autenticação utilize o endpoint de singin informando username ou email e o password
+- Para executar o frontend utilize a sequencia de comandos: cd clients-crud-front, npm install, e por ultimo ng serve
 
 Autenticação:
 email: italo_2512@hotmail.com, username: italo-gouveia, password: admin123
