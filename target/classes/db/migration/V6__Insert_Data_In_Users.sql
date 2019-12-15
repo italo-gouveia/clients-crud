@@ -1,3 +1,3 @@
-INSERT INTO `users` (`user_name`, `full_name`, `email`,  `password`, `account_non_expired`, `account_non_locked`, `credentials_non_expired`, `enabled`) VALUES
-	('italo-gouveia', 'Italo Gouveia', 'italo_2512@hotmail.com', '$2a$16$9qr2tv0HmXbHBsx.TZFjfux742wCZM32a8Wi6iBqwIqaizlHPuxHS', b'1', b'1', b'1', b'1'),
-	('renato-leite', 'Renato Leite', 'atouguialeite@gmail.com', '$2a$16$h4yDQCYTy62R6xrtFDWONeMH3Lim4WQuU/aj8hxW.dJJoeyvtEkhK', b'1', b'1', b'1', b'1');
+INSERT INTO `users` (`id`, `user_name`, `full_name`, `email`,  `password`, `account_non_expired`, `account_non_locked`, `credentials_non_expired`, `enabled`) VALUES
+	(1, 'italo-gouveia', 'Italo Gouveia', 'italo_2512@hotmail.com', '$2a$16$9qr2tv0HmXbHBsx.TZFjfux742wCZM32a8Wi6iBqwIqaizlHPuxHS', b'1', b'1', b'1', b'1'),
+	(2, 'renato-leite', 'Renato Leite', 'atouguialeite@gmail.com', '$2a$16$h4yDQCYTy62R6xrtFDWONeMH3Lim4WQuU/aj8hxW.dJJoeyvtEkhK', b'1', b'1', b'1', b'1');

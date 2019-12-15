@@ -41,7 +41,7 @@ public class ClientController {
 
         Direction sortDirection = DESC_CONST.equalsIgnoreCase(direction) ? Direction.DESC : Direction.ASC;
 
-        Pageable pageable = PageRequest.of(page, limit, Sort.by(sortDirection, "firstName"));
+        Pageable pageable = PageRequest.of(page, limit, Sort.by(sortDirection, "name"));
 
         Page<ClientVO> clients =  service.findAll(pageable);
         clients
@@ -66,7 +66,7 @@ public class ClientController {
 
         Direction sortDirection = DESC_CONST.equalsIgnoreCase(direction) ? Direction.DESC : Direction.ASC;
 
-        Pageable pageable = PageRequest.of(page, limit, Sort.by(sortDirection, "firstName"));
+        Pageable pageable = PageRequest.of(page, limit, Sort.by(sortDirection, "name"));
 
         Page<ClientVO> persons =  service.findClientByName(name, pageable);
         persons

@@ -118,14 +118,13 @@
                 <groupId>org.flywaydb</groupId>
                 <artifactId>flyway-maven-plugin</artifactId>
                 <configuration>
-                    <!--
                     <url>jdbc:mysql://localhost:3306/snet_challenge_crud_clients?useTimezone=true&amp;serverTimezone=UTC&amp;useSSL=false</url>
                     <user>root</user>
                     <password></password>
-                    -->
+                    <!--
                     <url>jdbc:mysql://us-cdbr-iron-east-05.cleardb.net/heroku_9d5ac65463a6e4d?useTimezone=true&amp;serverTimezone=UTC&amp;useSSL=false</url>
                     <user>ba7b038b4bd519</user>
-                    <password>3cc6acfb</password>
+                    <password>3cc6acfb</password>-->
                 </configuration>
                 <dependencies>
                     <dependency>

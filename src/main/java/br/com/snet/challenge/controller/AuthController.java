@@ -4,6 +4,7 @@ import br.com.snet.challenge.data.model.User;
 import br.com.snet.challenge.repository.UserRepository;
 import br.com.snet.challenge.security.AccountCredentialsVO;
 import br.com.snet.challenge.security.jwt.JwtTokenProvider;
+import br.com.snet.challenge.services.UserServices;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -39,6 +40,9 @@ public class AuthController {
     @Autowired
     UserRepository repository;
 
+    @Autowired
+    UserServices service;
+
     @ApiOperation(value = "Autentica um usuário e retorna um token")
     @SuppressWarnings("rawtypes")
     @PostMapping(value = "/signin", produces = { "application/json", "application/xml", "application/x-yaml" },
@@ -49,7 +53,7 @@ public class AuthController {
             String email = data.getEmail();
             String password = data.getPassword();
 
-            User user = repository.findByUsernameOrEmail(username, email);
+            User user = service.findByUsernameOrEmail(username, email);
 
             authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(user.getUserName(), password));
 
@@ -77,30 +81,12 @@ public class AuthController {
     @SuppressWarnings("rawtypes")
     @PostMapping(value = "/signup", produces = { "application/json", "application/xml", "application/x-yaml" },
             consumes = { "application/json", "application/xml", "application/x-yaml" })
-    public ResponseEntity signup(@RequestBody User user) {
-        try {
+    public ResponseEntity signup(@RequestBody AccountCredentialsVO user) {
 
-            User data = repository.save(user);
+        User data = service.save(user);
 
-            String username = data.getUsername();
-            String password = data.getPassword();
-
-            authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(username, password));
-
-            String token = "";
-
-            if (user != null) {
-                token = tokenProvider.createToken(user.getUsername(), user.getRoles());
-            } else {
-                throw new UsernameNotFoundException("Username " + user.getUserName() + " not found!");
-            }
-
-            Map<Object, Object> model = new HashMap<>();
-            model.put("username", user.getUserName());
-            model.put("token", token);
-            return ok(model);
-        } catch (AuthenticationException e) {
-            throw new BadCredentialsException("Invalid username/password supplied!");
-        }
+        Map<Object, Object> model = new HashMap<>();
+        model.put("username", data.getUserName());
+        return ok(model);
     }
 }

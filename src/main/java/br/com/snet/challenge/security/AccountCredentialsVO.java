@@ -1,12 +1,14 @@
 package br.com.snet.challenge.security;
 
 import java.io.Serializable;
+import java.util.Objects;
 
 public class AccountCredentialsVO implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
     private String username;
+    private String fullname;
     private String email;
     private String password;
 
@@ -16,6 +18,14 @@ public class AccountCredentialsVO implements Serializable {
 
     public void setUsername(String username) {
         this.username = username;
+    }
+
+    public String getFullname() {
+        return fullname;
+    }
+
+    public void setFullname(String fullname) {
+        this.fullname = fullname;
     }
 
     public String getEmail() {
@@ -36,11 +46,7 @@ public class AccountCredentialsVO implements Serializable {
 
     @Override
     public int hashCode() {
-        final int prime = 31;
-        int result = 1;
-        result = prime * result + ((password == null) ? 0 : password.hashCode());
-        result = prime * result + ((username == null) ? 0 : username.hashCode());
-        return result;
+        return Objects.hash(username, fullname, email, password);
     }
 
     @Override
@@ -56,6 +62,16 @@ public class AccountCredentialsVO implements Serializable {
             if (other.password != null)
                 return false;
         } else if (!password.equals(other.password))
+            return false;
+        if (email == null) {
+            if (other.email != null)
+                return false;
+        } else if (!email.equals(other.email))
+            return false;
+        if (fullname == null) {
+            if (other.fullname != null)
+                return false;
+        } else if (!fullname.equals(other.fullname))
             return false;
         if (username == null) {
             if (other.username != null)

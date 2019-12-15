@@ -1,7 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="43c3945f-5e3f-44ac-959f-94e0fa026ebb" name="Default Changelist" comment="" />
+    <list default="true" id="43c3945f-5e3f-44ac-959f-94e0fa026ebb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/snet/challenge/repository/PermissionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients-crud-front/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/clients-crud-front/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients-crud-front/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/clients-crud-front/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients-crud-front/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/clients-crud-front/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients-crud-front/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/clients-crud-front/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients-crud-front/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients-crud-front/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients-crud-front/src/app/app.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/clients-crud-front/src/app/app.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients-crud-front/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/clients-crud-front/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients-crud-front/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/clients-crud-front/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients-crud-front/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients-crud-front/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients-crud-front/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients-crud-front/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/clients-crud-front/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients-crud-front/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/clients-crud-front/src/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/snet/challenge/Startup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/snet/challenge/Startup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/snet/challenge/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/snet/challenge/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/snet/challenge/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/snet/challenge/config/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/snet/challenge/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/snet/challenge/controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/snet/challenge/controller/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/snet/challenge/controller/ClientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/snet/challenge/security/AccountCredentialsVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/snet/challenge/security/AccountCredentialsVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/snet/challenge/services/UserServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/snet/challenge/services/UserServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/snet/challenge/Startup.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/snet/challenge/Startup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/snet/challenge/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/snet/challenge/config/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/snet/challenge/config/WebConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/snet/challenge/config/WebConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/snet/challenge/controller/AuthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/snet/challenge/controller/AuthController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/snet/challenge/controller/ClientController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/snet/challenge/controller/ClientController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/snet/challenge/security/AccountCredentialsVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/snet/challenge/security/AccountCredentialsVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/snet/challenge/services/UserServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/snet/challenge/services/UserServices.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/migration/V4__Insert_Data_In_Permission.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db/migration/V4__Insert_Data_In_Permission.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/migration/V6__Insert_Data_In_Users.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db/migration/V6__Insert_Data_In_Users.sql" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +62,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/br/com/snet/challenge" />
+    <property name="ts.external.directory.path" value="C:\Users\Italo\Documents\clients-crud\clients-crud-front\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -83,10 +119,60 @@
       <option name="presentableId" value="Default" />
       <updated>1576171750544</updated>
       <workItem from="1576171771849" duration="17787000" />
+      <workItem from="1576267197731" duration="42000" />
+      <workItem from="1576332118103" duration="61000" />
+      <workItem from="1576334081270" duration="14443000" />
+      <workItem from="1576358094784" duration="16350000" />
+      <workItem from="1576413762612" duration="9716000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/br/com/snet/challenge/controller/AuthController.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/br/com/snet/challenge/controller/ClientController.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/br/com/snet/challenge/services/ClientServices.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/br/com/snet/challenge/controller/AuthController.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/br/com/snet/challenge/controller/ClientController.java</url>
+          <line>103</line>
+          <properties class="br.com.snet.challenge.controller.ClientController" method="update" />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
